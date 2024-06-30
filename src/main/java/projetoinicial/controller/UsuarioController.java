@@ -25,6 +25,7 @@ public class UsuarioController {
 
 	@Autowired
 	UsuarioService usuarioService;
+	//conflito
 
 	@GetMapping
 	public ResponseEntity<List<Usuario>> listaUsuario() {
