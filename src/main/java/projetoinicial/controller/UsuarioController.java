@@ -25,6 +25,7 @@ public class UsuarioController {
 
 	@Autowired
 	UsuarioService usuarioService;
+	//Alterei essa linha pelo branch
 
 	@GetMapping
 	public ResponseEntity<List<Usuario>> listaUsuario() {
