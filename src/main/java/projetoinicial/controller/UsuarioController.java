@@ -25,6 +25,7 @@ public class UsuarioController {
 
 	@Autowired
 	UsuarioService usuarioService;
+	//conflito
 	//Alterei essa linha pelo branch
 
 	@GetMapping
